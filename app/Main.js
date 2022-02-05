@@ -15,7 +15,7 @@ const Main = () => {
     <BrowserRouter>
       <Header />
       <Switch>
-        <Route path="/home" exact>
+        <Route path="/" exact>
           <HomeGuess />
         </Route>
         <Route path="/about-us">
